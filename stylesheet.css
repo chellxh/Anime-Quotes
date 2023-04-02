@@ -1,0 +1,130 @@
+html {
+  background-color: rgb(16, 16, 16);
+  color: orange;
+  font-family: "Delicious Handrawn", cursive;
+  overflow: none;
+  text-align: center;
+}
+
+.logo {
+  width: auto;
+}
+
+p {
+  font-size: 20px;
+  text-shadow: 3cap;
+}
+ul {
+  /* align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  list-style-type: none;
+}
+
+li {
+  /* box-sizing: border-box; */
+  width: 200px;
+  border: 8px solid #ffa500;
+  border-radius: 30px;
+  overflow: none;
+}
+
+li img:hover {
+  transform: scale(1.1);
+}
+li img {
+  max-width: 200px;
+  height: 360px;
+}
+
+/* .character ul li {
+  width: 400px;
+  height: 600px;
+} */
+
+h1 {
+  padding: 0;
+  margin: 0;
+  position: inherit;
+  font-size: 64px;
+}
+.search-box {
+  display: inline block;
+  background-color: transparent;
+  color: orangered;
+}
+.search-button {
+  background-color: rgb(33, 31, 31);
+  border-radius: 0.5rem;
+  opacity: 0.5;
+  transition: width 2s;
+}
+.search-button:is(:hover, :focus-visible) img {
+  opacity: 1;
+}
+.search-wrapper::before {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  width: 15px;
+  height: 20px;
+  border: 3px solid orange;
+  border-radius: 0.5rem;
+  border-inline-end-color: transparent;
+  animation: loading 500ms linear infinite;
+}
+/* ------- search input --------- */
+.search-field {
+  height: 30px;
+  width: 20%;
+  line-height: 20px;
+  padding-inline: 44px 16px;
+  outline: none;
+  border-radius: 1rem;
+  transition: width 3s;
+  color: orangered;
+  background-color: rgb(33, 31, 31);
+}
+/* -------- text in search input --------- */
+.search-field::placeholder {
+  color: whitesmoke;
+}
+/* ----- border lining when hovered over*/
+.search-field:hover {
+  box-shadow: 0 0 0 2px orange;
+}
+/* ------- when focus on search input ------*/
+.search-field:focus {
+  box-shadow: 0 0 0 2px orange;
+  padding-inline-start: 16px;
+}
+/*-------- CHARACTER IMG ANIMATION -------------*/
+.zoom {
+  padding: 10px;
+  background-color: black;
+  transition: transform 0.2s; /* Animation*/
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /*150% zoom*/
+}
+nav {
+  font-size: 24px;
+}
+
+a:link,
+a:visited {
+  color: orange;
+}
+a:active {
+  color: whitesmoke;
+}
+
+.quote {
+  font-size: 42px;
+  color: whitesmoke;
+}

@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(16, 16, 16);
+  color: orange;
+  font-family: "Delicious Handrawn", cursive;
+  text-align: center;
+}
+form {
+  border: 1px solid orange;
+  margin: auto;
+  width: 160px;
+  padding: 50px;
+}
+h1 {
+  font-size: 64px;
+}
+h2 {
+  padding: 20px;
+  border-top: 2px solid orange;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+p {
+  font-size: 30px;
+}
+
+button {
+  background-color: black;
+  border-color: orange;
+}
+nav {
+  margin: auto;
+  width: 160px;
+  border: 3px groove orange;
+  font-size: 24px;
+}
+
+a:link,
+a:visited {
+  color: orange;
+  text-decoration: none;
+}
+a:active {
+  color: whitesmoke;
+}
+@media (max-width: 600px) {
+  body {
+    background-image: linear-gradient(black, gray);
+  }
+  img {
+    width: 100%;
+  }
+}
+
+footer {
+  border-top: 2px solid orange;
+}
