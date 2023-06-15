@@ -8,7 +8,7 @@ form.addEventListener("submit", (event) => {
     p.textContent = "";
   }
 
-  let BASE_URL = "https://animechan.vercel.app/api/random/";
+  let BASE_URL = "http://animechan.melosh.space/random/";
   let input = document.getElementById("search-field").value;
 
   fetch(`${BASE_URL}character?name=${input}`)
@@ -36,7 +36,7 @@ form.addEventListener("submit", (event) => {
 // GOKU
 
 let gokuQuote = document.querySelector(".Goku-quote");
-fetch(`https://animechan.vercel.app/api/random/character?name=Goku`)
+fetch(`http://animechan.melosh.space/random/character?name=Goku`)
   .then((response) => response.json())
   .then((data) => {
     let quote = data.quote;
@@ -46,7 +46,7 @@ fetch(`https://animechan.vercel.app/api/random/character?name=Goku`)
 // KENPACHI
 
 let kenpachiQuote = document.querySelector(".kenpachi-quote");
-fetch(`https://animechan.vercel.app/api/random/character?name=kenpachi`)
+fetch(`http://animechan.melosh.space/random/character?name=kenpachi`)
   .then((response) => response.json())
   .then((data) => {
     let quote = data.quote;
@@ -56,7 +56,7 @@ fetch(`https://animechan.vercel.app/api/random/character?name=kenpachi`)
 // ITACHI
 
 let itachiQuote = document.querySelector(".itachi-quote");
-fetch(`https://animechan.vercel.app/api/random/character?name=itachi`)
+fetch(`http://animechan.melosh.space/random/character?name=itachi`)
   .then((response) => response.json())
   .then((data) => {
     let quote = data.quote;
@@ -66,7 +66,7 @@ fetch(`https://animechan.vercel.app/api/random/character?name=itachi`)
 // HOLLOW ICHIGO
 
 let hollowIchigoQuote = document.querySelector(".hollowIchigo-quote");
-fetch(`https://animechan.vercel.app/api/random/character?name=hollow ichigo`)
+fetch(`http://animechan.melosh.space/random/character?name=hollow ichigo`)
   .then((response) => response.json())
   .then((data) => {
     let quote = data.quote;
@@ -76,7 +76,7 @@ fetch(`https://animechan.vercel.app/api/random/character?name=hollow ichigo`)
 // ED ELRIC
 
 let edwardElricQuote = document.querySelector(".edwardElric-quote");
-fetch(`https://animechan.vercel.app/api/random/character?name=Elric`)
+fetch(`http://animechan.melosh.space/random/character?name=Elric`)
   .then((response) => response.json())
   .then((data) => {
     let quote = data.quote;
@@ -86,7 +86,7 @@ fetch(`https://animechan.vercel.app/api/random/character?name=Elric`)
 // YORUICHI
 
 let yoruichiQuote = document.querySelector(".yoruichi-quote");
-fetch(`https://animechan.vercel.app/api/random/character?name=yoruichi`)
+fetch(`http://animechan.melosh.space/random/character?name=yoruichi`)
   .then((response) => response.json())
   .then((data) => {
     let quote = data.quote;
@@ -96,7 +96,7 @@ fetch(`https://animechan.vercel.app/api/random/character?name=yoruichi`)
 // VEGETA
 
 let vegetaQuote = document.querySelector(".vegeta-quote");
-fetch(`https://animechan.vercel.app/api/random/character?name=vegeta`)
+fetch(`http://animechan.melosh.space/random/character?name=vegeta`)
   .then((response) => response.json())
   .then((data) => {
     let quote = data.quote;
@@ -106,7 +106,7 @@ fetch(`https://animechan.vercel.app/api/random/character?name=vegeta`)
 // NARUTO
 
 let narutoQuote = document.querySelector(".naruto-quote");
-fetch(`https://animechan.vercel.app/api/random/character?name=naruto`)
+fetch(`http://animechan.melosh.space/random/character?name=naruto`)
   .then((response) => response.json())
   .then((data) => {
     let quote = data.quote;
@@ -116,7 +116,7 @@ fetch(`https://animechan.vercel.app/api/random/character?name=naruto`)
 // URAHARA
 
 let kisukeUraharaQuote = document.querySelector(".kisukeUrahara-quote");
-fetch(`https://animechan.vercel.app/api/random/character?name=Urahara`)
+fetch(`http://animechan.melosh.space/random/character?name=Urahara`)
   .then((response) => response.json())
   .then((data) => {
     let quote = data.quote;
